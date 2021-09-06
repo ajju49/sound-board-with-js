@@ -1,0 +1,23 @@
+*{
+    
+    box-sizing: border-box;
+}
+
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    width: 100%;
+    overflow: hidden;
+    margin: 0;
+    background: linear-gradient(to bottom right , black,gray);
+}
+.btn{
+    margin: 15px;
+    color: yellow;
+    background: black;
+    border: none;
+    padding: 20px;
+    border-radius: 7px;
+}
